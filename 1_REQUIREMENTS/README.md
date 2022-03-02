@@ -1,6 +1,6 @@
 # Discription:
  Customer Billing System Project is a simple console application designed to demonstrate the practical use of C programming language and its features as wells as to generate an application which can be used in any departmental store, shops, cafes etc. for billing to the customer.
-We can use this application to keep the records such as name, address, mobile number, paid amount, due amount, payment date etc. of your regular costumer. Moreover, if you have a new customer, you can add and edit the account at any time.
+We can use this application to keep the records such as name, address, mobile number, paid amount, due amount, payment date etc. of your regular costumer. 
 
 # User Case Diagram :
 ![WhatsApp Image 2022-03-02 at 4 13 26 AM](https://user-images.githubusercontent.com/98813939/156362546-c5d510cf-a99d-41d1-b1b2-a9e4a16ce01c.jpeg)
