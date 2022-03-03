@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include <conio.h>
+#include <windows.h>
 
 #define DOSA_PRICE   110.00
 #define VADDA_PRICE  80.00
@@ -31,17 +32,28 @@ int main(void)
 	float bill_Amount;
 	char name[250];
 	char cname[250];
+	 char date[250];
 
 //	Statements
 
 
 	printf("\t\tWelcome To TEJ RESTAURANT\n");
 	printf("\n Please Enter the following details. \n\n");
-	
+
+    void login();
+
+    {
 	printf("Cashier's Name: \n");
 	scanf("%s",name);
 	printf("Customer's Name: \n");
 	scanf("%s",cname);
+	printf(" Date (dd/mm/yyyy) \n");
+	scanf("%s",date);
+    }
+
+	void Quantity();
+
+    {
 	
 	printf("\n\t**Enter 0 for none*");
 
@@ -59,23 +71,24 @@ int main(void)
 
 	printf("How many Chapathi? \n");
 	scanf("%d", &chapathiQTY);
-	
+
+	}
+
 	printf("\n Press Any Key To Generate Bill");
 	getch();
 
-printf("\n\n\n\t\t\t\t\tLOADING \n\t\t\t\t\t");
-int a;
+    printf("\n\n\n\t\t\t\t\tLOADING \n\t\t\t\t\t");
+    int a;
    	for( a=1;a<8;a++) // Change 'a<?' to how many * you want
 	{
-		Sleep(500);
+		
 		printf("...");
 	}
       printf("\n\n\t\t\t\t\tBill Generated. \n\n");
       
-      system("PAUSE");
-      system("CLS");
+	  //	Calculation Statements
 
-//	Calculation Statements
+    void billgeneration();
 
 	total_dosa = dosaQTY * DOSA_PRICE;
 	total_vadda = vaddaQTY * VADDA_PRICE;
@@ -106,13 +119,13 @@ int a;
 	printf("\t\t\t                           Total$         %10.2f     \n", bill_Amount);
 	printf("\t\t\t                           Customer         %s     \n", cname);
 	printf("\t\t\t                           Cashier          %s     \n", name);
+	printf("\t\t\t                           date             %s     \n", date);
 	printf("\t\t\t====================================================\n\n");
 	printf("\t\t\t\t\t\tEnd of bill\n\n");
 
-	system("PAUSE");
-	system("CLS");
-	//main();
-	printf("\n\n\n\t\t\tBrought To You By code-projects.org\n\n");
+    
+    
+	
 	return 0;
 	
 }
