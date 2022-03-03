@@ -2,13 +2,15 @@
 #include <conio.h>
 #include <windows.h>
 
+/*
 #define DOSA_PRICE   110.00
 #define VADDA_PRICE  80.00
 #define UPPMA_PRICE  90.20
-
+*/
 
 int main(void)
 {
+/*
 
 //	Local Declarations
 
@@ -40,7 +42,7 @@ int main(void)
 	printf("\t\tWelcome To TEJ RESTAURANT\n");
 	printf("\n Please Enter the following details. \n\n");
 
-    void login();
+    void start();
 
     {
 	printf("Cashier's Name: \n");
@@ -76,7 +78,7 @@ int main(void)
 
 	printf("\n Press Any Key To Generate Bill");
 	getch();
-
+*/
     printf("\n\n\n\t\t\t\t\tLOADING \n\t\t\t\t\t");
     int a;
    	for( a=1;a<8;a++) // Change 'a<?' to how many * you want
@@ -88,7 +90,7 @@ int main(void)
       
 	  //	Calculation Statements
 
-    void billgeneration();
+   /* void receipt();
 
 	total_dosa = dosaQTY * DOSA_PRICE;
 	total_vadda = vaddaQTY * VADDA_PRICE;
@@ -100,7 +102,8 @@ int main(void)
 	bill_Amount = subTotal + tax;
 
 
-
+*/
+    void start();
 //	Printing Bills
     printf("\n");
     printf("\t\t\t====================================================\n");
