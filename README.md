@@ -15,3 +15,5 @@
 [![static-Analysis](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/static-analysis.yml)
 
 [![C/C++ CI](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/Static_check.yml/badge.svg)](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/Static_check.yml)
+
+[![Unit Testing - Unity](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/unit_testing.yml)
