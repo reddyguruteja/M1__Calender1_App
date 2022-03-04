@@ -7,3 +7,5 @@
 <a href="https://app.codiga.io/public/user/github/reddyguruteja">
    <img src="https://api.codiga.io/public/badge/user/github/reddyguruteja?style=light" alt="codiga badge" />
 </a>
+
+[![cppcheck-action](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/cppcheck.yml)
