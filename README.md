@@ -9,3 +9,5 @@
 </a>
 
 [![cppcheck-action](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/cppcheck.yml)
+
+[![Git Inspector](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/reddyguruteja/M1__Customer-Billing-System-APP/actions/workflows/git_inspector.yml)
